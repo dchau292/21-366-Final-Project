@@ -32,15 +32,9 @@ This script:
 3. Install dependencies <code>pip install -r requirements.txt </code>
 4. Modify these input variables in predictor.py to configure the analysis:
 </br>player = "Luka Doncic"       # Player to predict
-opponent = "OKC"             # Opponent team abbreviation
-upcoming_game = "Home"       # "Home" or "Away"
-season = "2024-25"           # NBA season format
-
+</br>opponent = "OKC"             # Opponent team abbreviation
+</br>upcoming_game = "Home"       # "Home" or "Away"
+</br>season = "2024-25"           # NBA season format
 
 ---
 
-Modify the following variables inside project.py:
-player = "Luka Doncic"        # NBA player name
-opponent = "OKC"              # Opponent team abbreviation
-upcoming_game = "Home"        # "Home" or "Away"
-season = "2024-25"            # Season
