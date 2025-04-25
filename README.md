@@ -1,6 +1,6 @@
 # 21-366-Final-Project
 
-## Porject Overview
+## Project Overview
 This project explores the intersection of sports analytics and generative AI by predicting the performance of NBA players using a combination of real-time statistics, historical data, dimensionality reduction, and language modeling.
 
 The primary goal is to generate a predicted stat line — Points, Rebounds, and Assists — for a given player in their upcoming game, using both quantitative evidence and natural language reasoning. This is achieved through a Retrieval-Augmented Generation (RAG) pipeline that informs a GPT-4 model with:
@@ -8,21 +8,18 @@ The primary goal is to generate a predicted stat line — Points, Rebounds, and 
 - **Historical performance vs upcoming opponent**
 - **Opponent defensive metrics**
 - **Principal Component Analysis (PCA)**
+- **Memory-base Retrieval**
 - **OpenAI's GPT-4 for natural language reasoning**
 
 Combining traditional analytics with modern AI techniques forms a Retrieval-Augmented Generation (RAG) pipeline that enriches GPT-4's prediction capabilities with factual game data.
 ![image](https://github.com/user-attachments/assets/4d695074-e861-4baf-8139-034fe7108c75)
 
-
 ---
 
-This script:
-1. Fetches a player’s last 10 games
-2. Fetches their last 10 games against the upcoming opponent (last 5 seasons)
-3. Uses PCA to reduce statistical dimensions (PTS, REB, AST)
-4. Builds a semantic vector search with FAISS
-5. Feeds contextual summaries into GPT-4 for prediction
-6. Returns a predicted stat line with reasoning
+## Project Description
+### RAG Pipeline Breakdown:
+1. Data Retrieval
+  - Recent player game logs (last 10 games)
 
 ---
 
