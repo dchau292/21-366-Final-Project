@@ -1,0 +1,7 @@
+nba_api==1.1.13
+openai==1.14.3
+python-dotenv==1.0.1
+pandas==2.2.2
+scikit-learn==1.4.2
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4
