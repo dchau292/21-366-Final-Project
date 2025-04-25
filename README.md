@@ -19,7 +19,7 @@ Combining traditional analytics with modern AI techniques forms a Retrieval-Augm
 ## Project Description
 ### RAG Pipeline Breakdown:
 1. Data Retrieval
-  - Recent player game logs (last 10 games)
+    - Recent player game logs (last 10 games)
 
 ---
 
