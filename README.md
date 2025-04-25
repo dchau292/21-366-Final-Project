@@ -25,7 +25,9 @@ This script:
 ---
 
 How to run:
+
 In order for the code to run, create a .env file in the root directory:
+
   OPENAI_API_KEY=your-openai-key-here
 
 ---
