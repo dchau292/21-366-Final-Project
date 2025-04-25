@@ -7,6 +7,7 @@ The primary goal is to generate a predicted stat line — Points, Rebounds, and 
 - **Opponent defensive metrics**
 - **Principal Component Analysis (PCA)**
 - **OpenAI's GPT-4 for natural language reasoning**
+
 Combining traditional analytics with modern AI techniques forms a Retrieval-Augmented Generation (RAG) pipeline that enriches GPT-4's prediction capabilities with factual game data.
 ![image](https://github.com/user-attachments/assets/4d695074-e861-4baf-8139-034fe7108c75)
 
