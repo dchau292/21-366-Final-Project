@@ -20,6 +20,18 @@ Combining traditional analytics with modern AI techniques forms a Retrieval-Augm
 ### RAG Pipeline Breakdown:
 1. Data Retrieval
     - Recent player game logs (last 10 games)
+    - Historical matchup logs vs. upcoming opponent (last 5 seasons)
+    - Opponent defensive field goal %
+2. Principal Component Analysis (PCA) to reduce vector size
+3. Summary creation of player stat trends and matchup performance
+4. Vector Indexing
+    - Context summaries are embedded using <code>sentence-transformers</code>
+    - Indexed and retrieved utilizing FAISS
+5. Propmpt Construction
+    - Summaries, defensive information, and recent trends
+    - A prompt is generated to inform GPT-4 with contextual grounding
+6. LLM Generation
+    - GPT-4 generates a projected stat line with reasoning
 
 ---
 
@@ -34,4 +46,3 @@ Combining traditional analytics with modern AI techniques forms a Retrieval-Augm
 </br>season = "2024-25"           # NBA season format
 
 ---
-
