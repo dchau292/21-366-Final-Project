@@ -26,11 +26,16 @@ This script:
 
 ---
 
-How to run:
-   </br>
-In order for the code to run, create a .env file in the root directory:
-   </br>
-  OPENAI_API_KEY=your-openai-key-here
+## Install Directions
+1. Clone the repo
+2. Set up environment by creating .env file in root directory to store API key securely
+3. Install dependencies <code>pip install -r requirements.txt </code>
+4. Modify these input variables in predictor.py to configure the analysis:
+player = "Luka Doncic"       # Player to predict
+opponent = "OKC"             # Opponent team abbreviation
+upcoming_game = "Home"       # "Home" or "Away"
+season = "2024-25"           # NBA season format
+
 
 ---
 
