@@ -1,4 +1,6 @@
 # 21-366-Final-Project
+
+## Porject Overview
 This project explores the intersection of sports analytics and generative AI by predicting the performance of NBA players using a combination of real-time statistics, historical data, dimensionality reduction, and language modeling.
 
 The primary goal is to generate a predicted stat line — Points, Rebounds, and Assists — for a given player in their upcoming game, using both quantitative evidence and natural language reasoning. This is achieved through a Retrieval-Augmented Generation (RAG) pipeline that informs a GPT-4 model with:
@@ -25,9 +27,9 @@ This script:
 ---
 
 How to run:
-
+   </br>
 In order for the code to run, create a .env file in the root directory:
-
+   </br>
   OPENAI_API_KEY=your-openai-key-here
 
 ---
